@@ -1,0 +1,4 @@
+navidml6453@gmail.com
+Warning: Undefined variable $Body in C:\xampp\htdocs\inventory_management\web\sendingEmail\sendAlerts_scrap.php on line 43
+
+node C:\xampp\htdocs\inventory_management\web\sendingEmail\index.js navidml6453@gmail.com Duralast Bearing  Naveed > log.txt 

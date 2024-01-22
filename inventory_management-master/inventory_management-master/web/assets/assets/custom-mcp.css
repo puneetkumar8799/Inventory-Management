@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/*!
+ * Author : Muhammad Rashid
+ * Version : 1.0
+ * Date : 1st December 2020
+ * Copyright 2015-2020 MCPß
+ */
+.sklt-wrapper {
+  margin: 0px;
+  padding: 10px;
+  width: 100%; 
+  background: #fff;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.sklt-wrapper-cell {
+  display: -webkit-box;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+@-webkit-keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+.animated-background, .sklt-image, .sklt-text-line, .table-image {
+  -webkit-animation-duration: 1.25s;
+          animation-duration: 1.25s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: placeHolderShimmer;
+          animation-name: placeHolderShimmer;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  background: #f6f6f6;
+  background: -webkit-gradient(linear, left top, right top, color-stop(8%, #f6f6f6), color-stop(18%, #f0f0f0), color-stop(33%, #f6f6f6));
+  background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+  background-size: 800px 104px;
+  height: 96px;
+  position: relative;
+}
+
+.animated-background-blue, .sklt-image-blue, .sklt-text-line-blue, .table-image-blue {
+    -webkit-animation-duration: 1.25s;
+    animation-duration: 1.25s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: placeHolderShimmer;
+    animation-name: placeHolderShimmer;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    background: #014ba7;
+    background: -webkit-gradient(linear, left top, right top, color-stop(8%, #014ba7), color-stop(18%, #015ff3), color-stop(33%, #014ba7));
+    background: linear-gradient(to right, #014ba7 8%, #015ff3 18%, #014ba7 33%);
+    background-size: 800px 104px;
+    height: 96px;
+    position: relative;
+}
+
+.animated-background-grey, .sklt-image-grey, .sklt-text-line-grey, .table-image-grey {
+    -webkit-animation-duration: 1.25s;
+    animation-duration: 1.25s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: placeHolderShimmer;
+    animation-name: placeHolderShimmer;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    background: #5e6e82;
+    background: -webkit-gradient(linear, left top, right top, color-stop(8%, #5e6e82), color-stop(18%, #a1c4de), color-stop(33%, #5e6e82));
+    background: linear-gradient(to right, #5e6e82 8%, #a1c4de 18%, #5e6e82 33%);
+    background-size: 800px 104px;
+    height: 96px;
+    position: relative;
+}
+
+.tablecolumn{
+    -webkit-animation-duration: 1.25s;
+    animation-duration: 1.25s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: placeHolderShimmer;
+    animation-name: placeHolderShimmer;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    background: #f6f6f6;
+    background: -webkit-gradient(linear, left top, right top, color-stop(8%, #f6f6f6), color-stop(18%, #f0f0f0), color-stop(33%, #f6f6f6));
+    background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+    background-size: 800px 104px;
+    height: 40px;
+    position: relative;
+}
+
+.sklt-piGraph {
+  -webkit-animation-duration: 1.25s;
+          animation-duration: 1.25s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: placeHolderShimmer;
+          animation-name: placeHolderShimmer;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  background: #f6f6f6;
+  background: -webkit-gradient(linear, left top, right top, color-stop(8%, #f6f6f6), color-stop(18%, #f0f0f0), color-stop(33%, #f6f6f6));
+  background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+  background-size: 800px 104px;
+  position: relative;
+
+  display: block;  
+  width: 350px;
+  height: 350px;
+  border-radius: 50%; 
+  background-color: #bbb; 
+  margin-top: 80px;
+  margin:0 auto;
+}
+
+.sklt-image {
+  height: 60px;
+  width: 60px;
+}
+
+.table-image{
+    height: 40px;
+    width: 40px;
+}
+
+.sklt-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.sklt-text-line {
+  height: 10px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.sklt-text-line-blue {
+    height: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.sklt-text-line-grey {
+    height: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.sklt-text-line-right{
+    float:right;
+    width:100px;
+    clear:both;
+}
+
+.sklt-text-line-left{
+    float:left;
+    width:100px;
+    clear:both;
+}

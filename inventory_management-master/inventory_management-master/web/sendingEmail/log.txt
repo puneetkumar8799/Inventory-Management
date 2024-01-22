@@ -1,0 +1,6 @@
+Command-line arguments: [ 'naveed.ahmed6453@gmail.com', 'Gear', 'Box', 'Robert' ]
+Step 1 - Opening Ad URL 1
+Opening url =https://mail.google.com/mail/u/0/#inbox
+C:/xampp/htdocs/inventory_management/web/sendingEmail/gmailInbox/cookies/inventorym96@gmail.com.txt
+Cookies has been loaded in the browser
+current url is https://mail.google.com/mail/u/0/#inbox
